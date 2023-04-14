@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,700;1,500&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  background-color: #001220;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+
+.header{
+  width: 100%;
+  background-color: #4FACF7;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  display: flex;
+}
+.nav{
+  align-items: center;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  color: #f9f9f9;
+  font-size: 20px;
+  font-family: 'DM Sans';
+  font-weight: 600;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.navigation{
+  display: flex;
+  gap: 15px;
+  text-align: center;
+}
+
+.main-content{
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.Start{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-image: url(imagens/layered-waves-haikei.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 700px;
+  gap: 50px;
+}
+
+.start-left{
+  height: 200px;
+}
+
+.my-name{
+  color: #fff;
+  font-size: 80px;
+  font-family: 'DM Sans';
+  font-weight: 600;
+  text-shadow: 0px 0px 20px #001220;
+}
+
+.my-profile{
+  font-family: 'DM Sans';
+  font-weight: 600;
+  font-size: 30px;
+  color: #abf8eb;
+  text-shadow: 0px 0px 20px #001220;
+  margin-bottom: 25px;
+}
+
+.my-contact{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.my-contact button{
+  width: 190px;
+  height: 80px;
+  margin: 10px;
+  background-color: rgb(0, 18, 32, 0.8);
+  color: #fff;
+  font-size: 20px;
+  font-family: 'DM Sans';
+  font-weight: 600;
+  border-radius: 10px;
+  border: none;
+  border: 1px solid #4FACF7;
+  text-shadow: 0px 0px 25px #4FACF7;
+  padding: 5px;
+}
+
+.social-medias{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  width: 100%;
+  padding: 10px;
+}
+
+.medias{
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  background-color: #17b18f;
+  padding: 15px;
+  border-radius: 15px;
+}
+
+.about-me{
+  width: 100%;
+  background-image: url(imagens/layered-steps-haikei.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 1000px;
+  margin-bottom: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.my-photo{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  gap: 40px;
+  font-size: 30px;
+  font-family: 'DM Sans';
+  font-weight: 600;
+  color: #fff;
+  width: 900px;
+}
+
+.text-about-me{
+  color: #f9f9f9;
+  font-size: 30px;
+  font-family: 'DM Sans';
+  width: 800px;
+}
+
+.my-photo strong{
+  font-size: 35px;
+}
+
+
+
+span{
+  color: #012947;
+  text-shadow: 0px 0px 5px #4FACF7;
+}
+
+.my-photo img{
+  border-radius: 250px;
+  border: 2px solid #fff;
+  background-color: #abf8eb;
+  width: 500px;
+  height: 500px;
+  opacity: 0.9;
+}
+
+.large-icon{
+  width: 80%;
+}
+
+.min-icon{
+  width: 70px;
+}
+
+
+
+@media (max-width: 1555px){
+  .my-name{
+    font-size: 50px;
+  }
+
+  .Start{
+    height: 700px;
+  }
+
+  span{
+    text-shadow: none;
+  }
+
+  .my-contact button{
+    font-size: 15px;
+    width: 120px;
+    height: 50px;
+  }
+
+  .my-profile{
+    font-size: 22px;
+  }
+
+}
+
+@media (max-width: 750px){
+  .nav{
+    width: 100%;
+    padding: 10px;
+    font-size: 10px;
+    justify-content: center;
+  }
+
+  .title{
+    display: none;
+  }
+
+  .min-icon{
+    width: 40px;
+  }
+}
